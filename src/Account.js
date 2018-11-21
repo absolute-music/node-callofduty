@@ -32,9 +32,9 @@ class Account {
          * @type {string}
          * @type {string}
          * @type {string}
+         * @type {int}
          * @type {string}
-         * @type {string}
-         * @type {string}
+         * @type {int}
          */
         this.stats = this._structureGame(content.data.stats);
         
