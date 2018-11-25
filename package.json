@@ -21,7 +21,8 @@
   "author": "iNcizzle",
   "license": "ISC",
   "dependencies": {
-    "snekfetch": "^4.0.0"
+    "node-fetch": "^2.3.0",
+    "snekfetch": "^4.0.4"
   },
   "bugs": {
     "url": "https://github.com/incizzle/node-callofduty/issues"
