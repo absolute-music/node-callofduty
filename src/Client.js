@@ -58,7 +58,7 @@ class Client {
      * @memberof Client
      */
     get(game, username, platform = '6', raw = false) {
-        return this._request(`https://cod-api.tracker.gg/v1/standard/${game}/profile/${platform}/${username}`)
+        return this._request(` https://api.fortnitetracker.com/v1/profile/${platform}/${username}`)
             .then(r => raw ? r : new Account(r))
             .catch(e => Promise.reject(e));
     }
