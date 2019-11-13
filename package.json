@@ -1,14 +1,14 @@
 {
-  "name": "node-callofduty",
-  "version": "1.0.1",
-  "description": "Simple api wrapper that uses the Tracking Network Public API :)",
+  "name": "callofduty-api",
+  "version": "1.0.0",
+  "description": "Simple api wrapper that uses the Tracking Network Public API",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/incizzle/node-callofduty.git"
+    "url": "git+https://github.com/absolute-music/node-callofduty.git"
   },
   "keywords": [
     "callofduty",
@@ -18,14 +18,14 @@
     "wwii",
     "iw"
   ],
-  "author": "iNcizzle",
+  "author": "Jerry",
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^2.3.0",
     "snekfetch": "^4.0.4"
   },
   "bugs": {
-    "url": "https://github.com/incizzle/node-callofduty/issues"
+    "url": "https://github.com/absolute-music/node-callofduty/issues"
   },
-  "homepage": "https://github.com/incizzle/node-callofduty#readme"
+  "homepage": "https://github.com/absolute-music/node-callofduty#readme"
 }
